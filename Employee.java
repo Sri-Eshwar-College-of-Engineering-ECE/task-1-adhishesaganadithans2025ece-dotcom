@@ -1,5 +1,4 @@
 package june25;
-
 public class Employee {
     int employeeId;
     String name;
@@ -12,18 +11,15 @@ public class Employee {
         this.salary = salary;
         employeeCount++;
     }
-
     void displayEmployee() {
         System.out.println("Employee ID: " + employeeId);
         System.out.println("Name: " + name);
         System.out.println("Salary: " + salary);
         System.out.println();
     }
-
     static void displayEmployeeCount() {
         System.out.println("Total Employees: " + employeeCount);
     }
-
 	public static void main(String[] args) {
         Employee emp1 = new Employee(101, "Alice", 50000.0);
         Employee emp2 = new Employee(102, "Bob", 60000.0);
@@ -32,7 +28,6 @@ public class Employee {
         emp1.displayEmployee();
         emp2.displayEmployee();
         emp3.displayEmployee();
-
         Employee.displayEmployeeCount();
 	}
 
