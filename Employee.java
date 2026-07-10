@@ -5,7 +5,7 @@ public class Employee {
     double salary;
     static int employeeCount = 0;
 
-    Employee(int employeeId, String name, double salary) {
+    Employee(int employeeId, String name, double salary){
         this.employeeId = employeeId;
         this.name = name;
         this.salary = salary;
